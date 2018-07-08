@@ -21,11 +21,13 @@ $color-code-background: #EEEEEE;
 body, html {
 	overflow-x: hidden;
 	font-family: $fonts-system;
-	max-width: $max-width;
 	margin: auto;
 	padding: 0.5em;
 	line-height: 1.4;
 	color: $color-text-main;
+}
+body {
+	max-width: $max-width;
 }
 h1, h2, h3 {
 	line-height: 1.1;
