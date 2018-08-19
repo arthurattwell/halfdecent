@@ -54,6 +54,9 @@ code, pre {
 	padding: 0.1em 0.3em;
 	border-radius: $border-radius;
 }
+code {
+	line-height: 0; // stop code spans from widening lines
+}
 hr {
     margin: ($line-height * 2) 0;
     border: none;
