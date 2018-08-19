@@ -12,6 +12,7 @@ $max-width: 40em;
 $border-radius: 0.2em;
 $line-height: 1.4em; // set in ems
 $rule-thickness: 1px;
+$input-padding: 0.2em;
 
 // Colours
 $color-text-main: #222222;
@@ -53,6 +54,18 @@ hr {
 a {
 	text-decoration: none;
 	color: $color-links;
+}
+input {
+	font-family: $fonts-system;
+	padding: $input-padding;
+	border: $rule-thickness solid $color-mid;
+	border-radius: $border-radius;
+}
+form {
+	margin-bottom: $line-height;
+}
+button {
+	font-family: $fonts-system;
 }
 
 // Fancy flourishes
