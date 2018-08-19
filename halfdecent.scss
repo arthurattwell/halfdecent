@@ -13,6 +13,7 @@ $border-radius: 0.2em;
 $line-height: 1.4em; // set in ems
 $rule-thickness: 1px;
 $input-padding: 0.2em;
+$break-point-l: 60em;
 
 // Colours
 $color-text-main: #222222;
@@ -38,6 +39,13 @@ h1, h2, h3 {
 	margin: ($line-height * 2) 0 ($line-height * 0.5) 0;
 	& + & {
 		margin-top: 0;
+	}
+}
+// h1 really big on big screen because it's fashionable
+h1 {
+	@media only screen and (min-width: $break-point-l) {
+		font-size: 5em;
+		margin-top: $line-height;
 	}
 }
 code, pre {
@@ -66,11 +74,4 @@ form {
 }
 button {
 	font-family: $fonts-system;
-}
-
-// Fancy flourishes
-
-h1:first-of-type {
-	font-size: 5em;
-	margin-top: $line-height;
 }
