@@ -1,6 +1,6 @@
 # HalfDecent
 
-Very basic styles for a half-decent web page in plain HTML.
+[Very basic styles](https://arthurattwell.github.io/halfdecent/halfdecent.css) for a half-decent web page in plain HTML.
 
 ## Usage
 
