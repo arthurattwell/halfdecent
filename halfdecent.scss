@@ -44,7 +44,7 @@ h1, h2, h3 {
 // h1 really big on big screen because it's fashionable
 h1 {
 	@media only screen and (min-width: $break-point-l) {
-		font-size: 5em;
+		font-size: 4em;
 		margin-top: $line-height;
 	}
 }
