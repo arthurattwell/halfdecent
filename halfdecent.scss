@@ -8,11 +8,12 @@ $fonts-serif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif",
 $fonts-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 // Sizes
+$font-size: 1rem;
 $max-width: 40em;
-$border-radius: 0.2em;
+$border-radius: 0.2rem;
 $line-height: 1.4em; // set in ems
 $rule-thickness: 1px;
-$input-padding: 0.2em;
+$input-padding: 0.5rem;
 $break-point-l: 60em;
 
 // Colours
@@ -79,7 +80,11 @@ form {
 	margin-bottom: $line-height;
 }
 button {
+	border: $rule-thickness solid $color-mid;
+	border-radius: $border-radius;
 	font-family: $fonts-system;
+	font-size: $font-size;
+	padding: $input-padding;
 }
 
 // Common best practice classes
