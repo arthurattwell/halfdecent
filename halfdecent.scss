@@ -82,6 +82,7 @@ form {
 button {
 	border: $rule-thickness solid $color-mid;
 	border-radius: $border-radius;
+	cursor: pointer;
 	font-family: $fonts-system;
 	font-size: $font-size;
 	padding: $input-padding;
